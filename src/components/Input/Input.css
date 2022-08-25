@@ -1,0 +1,136 @@
+.font-10 {
+  font-size: 10px;
+}
+
+.font-12 {
+  font-size: 12px;
+}
+
+.font-14 {
+  font-size: 14px;
+}
+
+.font-16 {
+  font-size: 16px;
+}
+
+.font-18 {
+  font-size: 18px;
+}
+
+.font-20 {
+  font-size: 20px;
+}
+
+.font-22 {
+  font-size: 22px;
+}
+
+.font-24 {
+  font-size: 24px;
+}
+
+.font-28 {
+  font-size: 28px;
+}
+
+.font-32 {
+  font-size: 32px;
+}
+
+.font-36 {
+  font-size: 36px;
+}
+
+.font-64 {
+  font-size: 64px;
+}
+
+.font-75 {
+  font-size: 75px;
+}
+
+.form {
+  position: relative;
+  width: 525px;
+}
+.form__input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  border: 1px solid #E6E6E6;
+  border-radius: 10px;
+  background: none;
+  transition: all ease 0.3s;
+  padding: 20px 8px 20px 16px;
+  line-height: 18px;
+  outline: none;
+  color: #808080;
+  font-weight: 400;
+}
+.form__input:hover {
+  border-color: #B3B3B3;
+}
+.form__input:focus, .form__input:active {
+  border-color: #5326D6;
+  color: #5326D6;
+}
+.form__input.error {
+  border-color: #FF7676;
+}
+.form__label {
+  position: absolute;
+  left: 1rem;
+  top: 1.35rem;
+  padding: 0 0.5rem;
+  color: #4D4D4D;
+  font-weight: 400;
+  cursor: text;
+  transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+  background-color: #D8D8D8;
+}
+.form .message {
+  color: #FF7676;
+  margin-top: 68px;
+  position: absolute;
+}
+.form .icon {
+  position: absolute;
+  right: 0;
+  top: 20px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.form__input:not(:-moz-placeholder-shown).form__input:not(:focus) ~ .form__label {
+  top: -0.5rem;
+  font-size: 0.8rem;
+  left: 0.8rem;
+}
+
+.form__input:not(:-ms-input-placeholder).form__input:not(:focus) ~ .form__label {
+  top: -0.5rem;
+  font-size: 0.8rem;
+  left: 0.8rem;
+}
+
+.form__input:focus ~ .form__label,
+.form__input:not(:placeholder-shown).form__input:not(:focus) ~ .form__label {
+  top: -0.5rem;
+  font-size: 0.8rem;
+  left: 0.8rem;
+}
+
+.form__input:not(:-moz-placeholder-shown).form__input:not(:focus).form__input:not(.error) {
+  border: 1px solid #B3B3B3;
+}
+
+.form__input:not(:-ms-input-placeholder).form__input:not(:focus).form__input:not(.error) {
+  border: 1px solid #B3B3B3;
+}
+
+.form__input:not(:placeholder-shown).form__input:not(:focus).form__input:not(.error) {
+  border: 1px solid #B3B3B3;
+}/*# sourceMappingURL=Input.css.map */

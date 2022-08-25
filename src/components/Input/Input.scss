@@ -1,0 +1,73 @@
+@import '../../global.scss';
+
+.form{
+    position: relative;
+    width: 525px;
+
+    &__input{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        border: 1px solid $lineGray10;
+        border-radius: 10px;
+        background: none;
+        transition: all ease 0.3s;
+        padding: 20px 8px 20px 16px;
+        line-height: 18px;
+        outline: none;
+        color: $lightGray50;
+        font-weight: $w400;
+
+        &:hover{
+            border-color: $subGray30;
+        }
+
+        &:focus, &:active{
+            border-color: $purple;
+            color: $purple;
+        }
+
+        &.error {
+            border-color: $red;
+        }
+    }
+
+    &__label{
+        position: absolute;
+        left: 1rem;
+        top: 1.35rem;
+        padding: 0 0.5rem;
+        color: $mediumGray70;
+        font-weight: $w400;
+        cursor: text;
+        transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+        background-color: $background;
+    }
+
+    .message{
+        color: $red;
+        margin-top: 68px;
+        position: absolute;
+    }
+
+    .icon{
+        position: absolute;
+        right: 0;
+        top: 20px;
+        cursor: pointer;
+        z-index: 2;
+    }
+}
+
+.form__input:focus ~ .form__label,
+.form__input:not(:placeholder-shown).form__input:not(:focus) ~ .form__label {
+  top: -0.5rem;
+  font-size: 0.8rem;
+  left: 0.8rem;
+}
+
+.form__input:not(:placeholder-shown).form__input:not(:focus).form__input:not(.error){
+    border: 1px solid $subGray30;
+}

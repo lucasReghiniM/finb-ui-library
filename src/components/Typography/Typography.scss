@@ -1,0 +1,35 @@
+@import '../../global.scss';
+
+.typography{
+    // colors
+    &.orange {
+        color: $orange;
+    }
+    &.purple {
+        color: $purple;
+    }
+    &.white {
+        color: $white;
+    }
+    &.darkGray90 {
+        color: $darkGray90;
+    }
+    &.gray80 {
+        color: $gray80;
+    }
+    &.mediumGray70 {
+        color: $mediumGray70;
+    }
+    &.lightGray50 {
+        color: $lightGray50;
+    }
+    &.subGray30 {
+        color: $subGray30;
+    }
+    &.lineGray10 {
+        color: $lineGray10;
+    }
+
+    // font sizes
+    
+}

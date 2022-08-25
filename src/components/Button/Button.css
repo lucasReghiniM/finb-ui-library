@@ -1,0 +1,83 @@
+.font-10 {
+  font-size: 10px;
+}
+
+.font-12 {
+  font-size: 12px;
+}
+
+.font-14 {
+  font-size: 14px;
+}
+
+.font-16 {
+  font-size: 16px;
+}
+
+.font-18 {
+  font-size: 18px;
+}
+
+.font-20 {
+  font-size: 20px;
+}
+
+.font-22 {
+  font-size: 22px;
+}
+
+.font-24 {
+  font-size: 24px;
+}
+
+.font-28 {
+  font-size: 28px;
+}
+
+.font-32 {
+  font-size: 32px;
+}
+
+.font-36 {
+  font-size: 36px;
+}
+
+.font-64 {
+  font-size: 64px;
+}
+
+.font-75 {
+  font-size: 75px;
+}
+
+button {
+  border: none;
+}
+
+.btn {
+  border-radius: 100px;
+  color: white;
+}
+.btn.small {
+  padding: 15px 30px;
+}
+.btn.medium {
+  padding: 20px 40px;
+}
+.btn.large {
+  padding: 22px 60px;
+}
+.btn.orange {
+  background: #FF5C00;
+}
+.btn.purple {
+  background: #5326D6;
+}
+.btn.transparent {
+  background: transparent;
+  border: 1px solid #D8D8D8;
+}
+.btn.disabled {
+  cursor: not-allowed;
+  opacity: 0.3;
+}/*# sourceMappingURL=Button.css.map */
