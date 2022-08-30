@@ -25,6 +25,7 @@ const Typography: React.FC<TypographyProps> = ({variant, size, color, text, chil
 
         'orange': color === 'orange',
         'purple': color === 'purple',
+        'blue': color === 'blue',
         'white': color === 'white',
         'darkGray90': color === 'darkGray90',
         'gray80': color === 'gray80',

@@ -1,0 +1,54 @@
+@import '../../global.scss';
+
+.box {
+    display: flex;
+    flex-direction: row;
+
+    &.wrap {
+        flex-wrap: wrap;
+    }
+
+    &.nowrap {
+        flex-wrap: nowrap;
+    }
+
+    &.reverse {
+        flex-wrap: wrap-reverse;
+    }
+
+    &.isReverse {
+        flex-direction: row-reverse;
+    }
+
+    &.orange {
+        background-color: $orange;
+    }
+    &.purple {
+        background-color: $purple;
+    }
+    &.blue {
+        background-color: $blue;
+    }
+    &.white {
+        background-color: $white;
+    }
+    &.darkGray90 {
+        background-color: $darkGray90;
+    }
+    &.gray80 {
+        background-color: $gray80;
+    }
+    &.mediumGray70 {
+        background-color: $mediumGray70;
+    }
+    &.lightGray50 {
+        background-color: $lightGray50;
+    }
+    &.subGray30 {
+        background-color: $subGray30;
+    }
+    &.lineGray10 {
+        background-color: $lineGray10;
+    }
+
+}

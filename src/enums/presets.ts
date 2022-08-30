@@ -20,6 +20,7 @@ export enum allColors {
   lightGray50 = 'lightGray50',
   subGray30 = 'subGray30',
   lineGray10 = 'lineGray10',
+  blue = 'blue',
 }
 
 export enum inputTypes {
