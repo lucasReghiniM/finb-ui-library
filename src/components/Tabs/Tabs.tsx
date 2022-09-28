@@ -32,7 +32,7 @@ const Tabs: React.FC<TabsProps> = ({ tabs, content, ...props }) => {
   }, [content, selectedTab]);
 
   return (
-    <div>
+    <div className="tabsGeral">
       <div className="topContainer">
         <div className="tabRow">
           {tabs?.map((tab, index) => {
