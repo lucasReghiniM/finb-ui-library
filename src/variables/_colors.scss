@@ -1,5 +1,7 @@
 $orange: #FF5C00;
+$orangeTransparency: #FF5C0050;
 $purple: #5326D6;
+$purpleTransparency: #5326D650;
 $white: #FFFFFF;
 $blue: #18C8FF;
 $red: #FF7676;
@@ -15,3 +17,23 @@ $background: #D8D8D8;
 
 $purpleGradient: linear-gradient(158.41deg, #5326D6 14.18%, #5326D6 58.07%);
 $blueGradient: linear-gradient(161.87deg, #18C8FF 25.97%, rgba(24, 200, 255, 0) 74.3%);
+
+.orange {
+  background-color: $orange;
+}
+
+.purple {
+  background-color: $purple;
+}
+
+.white {
+  background-color: $white;
+}
+
+.blue {
+  background-color: $blue;
+}
+
+.red {
+  background-color: $red;
+}
