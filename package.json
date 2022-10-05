@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/lucasReghiniM"
   },
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Finb react ui library",
   "license": "MIT",
   "scripts": {
